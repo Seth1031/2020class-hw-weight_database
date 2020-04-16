@@ -15,6 +15,11 @@
 		5D1D72682445A2D800AED12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1D72662445A2D800AED12F /* LaunchScreen.storyboard */; };
 		5D1D72732445A2D900AED12F /* _020class_hw_weight_databaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D72722445A2D900AED12F /* _020class_hw_weight_databaseTests.swift */; };
 		5D1D727E2445A2D900AED12F /* _020class_hw_weight_databaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D727D2445A2D900AED12F /* _020class_hw_weight_databaseUITests.swift */; };
+		5D1D728C2445A41700AED12F /* WeightDBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D728B2445A41700AED12F /* WeightDBTableViewController.swift */; };
+		5D1D728E2445A42F00AED12F /* WeightInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D728D2445A42F00AED12F /* WeightInputTableViewController.swift */; };
+		5D1D72902445A44900AED12F /* WeightMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D728F2445A44900AED12F /* WeightMainViewController.swift */; };
+		5D1D72942447074900AED12F /* WeightDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D72932447074900AED12F /* WeightDB.swift */; };
+		5D1D72962448046B00AED12F /* WeightDBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D72952448046B00AED12F /* WeightDBTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5D1D72792445A2D900AED12F /* 2020class-hw-weight_databaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2020class-hw-weight_databaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1D727D2445A2D900AED12F /* _020class_hw_weight_databaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _020class_hw_weight_databaseUITests.swift; sourceTree = "<group>"; };
 		5D1D727F2445A2D900AED12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1D728B2445A41700AED12F /* WeightDBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDBTableViewController.swift; sourceTree = "<group>"; };
+		5D1D728D2445A42F00AED12F /* WeightInputTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInputTableViewController.swift; sourceTree = "<group>"; };
+		5D1D728F2445A44900AED12F /* WeightMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightMainViewController.swift; sourceTree = "<group>"; };
+		5D1D72932447074900AED12F /* WeightDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDB.swift; sourceTree = "<group>"; };
+		5D1D72952448046B00AED12F /* WeightDBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDBTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				5D1D725D2445A2D200AED12F /* SceneDelegate.swift */,
 				5D1D725F2445A2D200AED12F /* ViewController.swift */,
 				5D1D72612445A2D200AED12F /* Main.storyboard */,
+				5D1D72932447074900AED12F /* WeightDB.swift */,
+				5D1D728B2445A41700AED12F /* WeightDBTableViewController.swift */,
+				5D1D72952448046B00AED12F /* WeightDBTableViewCell.swift */,
+				5D1D728D2445A42F00AED12F /* WeightInputTableViewController.swift */,
+				5D1D728F2445A44900AED12F /* WeightMainViewController.swift */,
 				5D1D72642445A2D800AED12F /* Assets.xcassets */,
 				5D1D72662445A2D800AED12F /* LaunchScreen.storyboard */,
 				5D1D72692445A2D800AED12F /* Info.plist */,
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1D72942447074900AED12F /* WeightDB.swift in Sources */,
 				5D1D72602445A2D200AED12F /* ViewController.swift in Sources */,
+				5D1D72902445A44900AED12F /* WeightMainViewController.swift in Sources */,
 				5D1D725C2445A2D200AED12F /* AppDelegate.swift in Sources */,
 				5D1D725E2445A2D200AED12F /* SceneDelegate.swift in Sources */,
+				5D1D728E2445A42F00AED12F /* WeightInputTableViewController.swift in Sources */,
+				5D1D728C2445A41700AED12F /* WeightDBTableViewController.swift in Sources */,
+				5D1D72962448046B00AED12F /* WeightDBTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
